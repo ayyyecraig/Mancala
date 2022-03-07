@@ -38,3 +38,8 @@ https://trello.com/b/2Y5t9EUd/mancala-project-lineup
 ### ***Resources***
 
 https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+
+
+
+# ***Disclosure: To be deleted once approved or denied***
+If this project is to be denied on any bases; a backup idea of "Pong" is in place. Although pong is usually a game of two "paddles" and one "pong", it does not leave much of a challenge to a flexbox or grid. To meet the demand of a MVP; I would be  hoping to add "obstacles" or "barriers" that would bounce the ball in a more chaotic direction making it 1.MVP but 2.Possibly a bit more of a challenge compared to its 70's ancestor. 
