@@ -15,5 +15,26 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
      ------------------------- | --------------------------------------------------------
       Containing Minimal Text  | Images of sand to build a flexbox upon containing seeds.
       One page for Titile card | Font style: Amatic SC - for an old world feel
-      One For Game play       | Pits suited with high opacity to mimic holes dug into the sand
+      One For Game play        | Pits suited with high opacity to mimic holes dug into the sand
                                | Animation for title card
+
+
+## Functions/ Event Handlers
+- [ ] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
+- [ ] Function to distrubute marbels one by one 
+- [ ] Increasing storage pits by one each rotation- ticking the score board
+- [ ] Function for determining players turn
+- [ ] Determining winner
+- [ ] Button to clear and restart game
+
+
+
+
+
+## TrelloBoard
+https://trello.com/b/2Y5t9EUd/mancala-project-lineup
+
+
+### ***Resources***
+
+https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
