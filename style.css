@@ -1,0 +1,74 @@
+#board{
+    position: relative;
+    margin-left: 353px;
+    margin-top: 173px;
+    display: flex;
+    flex-direction: row;
+    width: 1049px;
+    height: 689px;
+    align-content: space-between;
+    justify-content: space-evenly
+}
+
+.hole{
+
+    width: 127px;
+    height: 284px;
+    background-color: gray;
+    border-radius: 137px;
+    position: relative;
+    left: -328px;
+}
+
+#player-one{
+    position: relative;
+    left: 832px;
+    height: 300px;
+    column-gap: 48px;
+    width: 836px;
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#player-two{
+    height: 259px;
+    width: 828px;
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+    column-gap: 48px;
+    align-items: flex-end;
+    position: relative;
+    top: 416px;
+    justify-content: space-around;
+}
+
+
+.p1-storage{
+    position: relative;
+    top: -1px;
+    left: 479px;
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    cursor: none;
+    width: 295px;
+    background-color: blue
+}
+
+
+.p2-storage{
+    position: relative;
+    top: -1px;
+    left: -316px;
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    cursor: none;
+    width: 295px;
+    background-color: #9797bb;
+    align-content: flex-start;;
+    }
