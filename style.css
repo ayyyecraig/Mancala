@@ -72,3 +72,47 @@
     background-color: #9797bb;
     align-content: flex-start;;
     }
+
+
+.seed{
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+ .seed1{
+    position: relative;
+    left: 63px;
+    top: 210px;
+    background-color: brown;
+   
+    
+ }
+
+ .seed2{
+    background-color: brown;
+    position: relative;
+    right: -67px;
+    bottom: -95px;
+    
+    
+ }
+
+ .seed3{
+    background-color: brown;
+    position: relative;
+    left: 25px;
+    bottom: -204px;
+   
+ }
+
+ .seed4{
+    background-color: brown;
+    position: relative;
+    left: 20px;
+    top: 79px;
+    
+    
+ }
+
