@@ -79,6 +79,11 @@
     border-top-right-radius: 50%;
     width: 25px;
     height: 25px;
+    position: relative;
+    left: 63px;
+    top: 210px;
+    background-color: brown;
+   
 }
 
  .seed1{
