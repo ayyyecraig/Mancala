@@ -96,13 +96,13 @@ h1{
 
 
 .seed{
-    border-top-right-radius: 47px;
-    border-end-start-radius: 51px;
-    width: 59px;
-    height: 78px;
+    border-top-right-radius: 300px;
+    border-end-start-radius: 345px;
+    width: 83px;
+    height: 277px;
     position: relative;
-    left: 25px;
-    top: 109px;
+    left: 8px;
+    top: 5px;
     background-image: url(http://i.ndtvimg.com/i/2016-05/coriander-seeds_625x350_51463659936.jpg);
     opacity: 1;
     background-position: center;
@@ -113,10 +113,26 @@ width: 408px;
 height: 65px;
 position: relative;
 left: 738px;
-top: 5px;
+top: 33px;
 font-family: 'Amatic SC', cursive;
 color: #594935;
 text-shadow: 60px 0px #2c2a2421;
-font-size: 20px;
+font-size: 50px;
 background: transparent;
+border-radius: 87px 177px;
+border: 14px solid #0000008a;
+border-top: none;
+}
+
+
+h2{
+    color: #594935;
+    text-shadow: 60px 0px #2c2a2421;
+    font-size: 200px;
+    position: relative;
+    left: 678px;
+    animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 2.5s, 5s;
+animation-iteration-count: 2, 1;
+    
 }
