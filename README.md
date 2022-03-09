@@ -20,12 +20,12 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 
 
 ## Functions/ Event Handlers
-- [ ] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
+- [x] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
 - [ ] Function to distrubute marbels one by one 
 - [ ] Increasing storage pits by one each rotation- ticking the score board
 - [ ] Function for determining players turn
 - [ ] Determining winner
-- [ ] Button to clear and restart game
+- [x] Button to clear and restart game
 
 
 
