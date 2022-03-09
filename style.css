@@ -1,23 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body{
+background-image: url(https://htc-wallpaper.com/wp-content/uploads/2014/07/Sahara-Sand-Dunes.jpg);
+font-family: 'Amatic SC', cursive;
+}
+
+h1{
+    text-shadow: 60px 0px #2c2a2421;
+    font-size: 150px;
+    margin-left: 791px;
+    margin-top: 5px;
+    
+}
+
 #board{
     position: relative;
-    margin-left: 353px;
-    margin-top: 173px;
+    margin-left: 299px;
+    margin-top: -90px;
     display: flex;
     flex-direction: row;
-    width: 1049px;
-    height: 689px;
+    width: 1377px;
+    height: 678px;
     align-content: space-between;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    background-color: #7e4f1b36;
+    border-radius: 87px 177px;
+    border: 14px solid #0000008a;
+    border-top: none;
+    
 }
 
 .hole{
 
     width: 127px;
     height: 284px;
-    background-color: gray;
-    border-radius: 137px;
+    background-color: #98806669;
+    border-radius: 137px 50px;
     position: relative;
-    left: -328px;
+    left: -424px;
 }
 
 #player-one{
@@ -27,10 +48,7 @@
     column-gap: 48px;
     width: 836px;
     display: flex;
-    flex-direction: row;
-    flex: 6;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    flex-direction: row-reverse;
 }
 
 #player-two{
@@ -49,75 +67,45 @@
 
 .p1-storage{
     position: relative;
-    top: -1px;
-    left: 479px;
+   
+    left: -526px;
     display: flex;
     flex: 1;
     flex-direction: column-reverse;
     cursor: none;
     width: 295px;
-    background-color: blue
+    background-color: #98806669;
+    border-radius: 137px 50px;
 }
 
 
 .p2-storage{
     position: relative;
-    top: -1px;
-    left: -316px;
+    
+    left: -318px;
     display: flex;
     flex: 1;
     flex-direction: column-reverse;
     cursor: none;
     width: 295px;
-    background-color: #9797bb;
+    background-color: #98806669;
+    border-radius: 137px 50px;
     align-content: flex-start;;
     }
 
 
 .seed{
-    border-bottom-left-radius: 100%;
-    border-top-right-radius: 50%;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    left: 63px;
-    top: 210px;
-    background-color: brown;
-   
-}
-
- .seed1{
-    position: relative;
-    left: 63px;
-    top: 210px;
-    background-color: brown;
-   
-    
- }
-
- .seed2{
-    background-color: brown;
-    position: relative;
-    right: -67px;
-    bottom: -95px;
-    
-    
- }
-
- .seed3{
-    background-color: brown;
+    border-top-right-radius: 47px;
+    border-end-start-radius: 51px;
+    width: 59px;
+    height: 78px;
     position: relative;
     left: 25px;
-    bottom: -204px;
-   
- }
+    top: 109px;
+    background-image: url(http://i.ndtvimg.com/i/2016-05/coriander-seeds_625x350_51463659936.jpg);
+    opacity: 1;
+    background-position: center;
+    
+}
 
- .seed4{
-    background-color: brown;
-    position: relative;
-    left: 20px;
-    top: 79px;
-    
-    
- }
 

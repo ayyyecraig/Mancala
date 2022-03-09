@@ -39,23 +39,11 @@ for(let i = 0; i < allPits.length; i++){
             allPits[i+j].dataset.seed = nextSeed + 1
             
            console.log(allPits[i+j].dataset.seed)
-        // console.log('add', allPits[i+1].dataset.seed)
-            // allPits[i+j].innerHTML = nextSeed
         //changing the hardcoded 4 to +1 to add to the next pits seed count
         allPits[i+j].innerHTML = allPits[i+j].dataset.seed
-        //for loop to finish out the previous code 
-        // for(let k = 0; k > currentSeeds; k){
-
-            // console.log('currentseeds', currentSeeds)
-            //delivers the +1 seed to next pit
-            // currentSeeds[k] = allPits[i+k];{
-                // if(currentSeeds[k] > 0){
-                //     repeat()
-                // }
-
+            if(i < 5){
                 
-            // }
-        // }
+            }
         }
     })
 }
