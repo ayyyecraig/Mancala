@@ -11,7 +11,7 @@ h1{
     text-shadow: 60px 0px #2c2a2421;
     font-size: 150px;
     margin-left: 791px;
-    margin-top: 5px;
+    margin-top: -162px;
     
 }
 
@@ -126,13 +126,72 @@ border-top: none;
 
 
 h2{
+    display: flex;
+    align-items: center;
     color: #594935;
     text-shadow: 60px 0px #2c2a2421;
     font-size: 200px;
     position: relative;
     left: 678px;
-    animation-name: fadeInOut, moveLeft300px, bounce;
-animation-duration: 2.5s, 5s;
-animation-iteration-count: 2, 1;
-    
+ 
 }
+
+
+.animate{
+   animation:  glitch  cubic-bezier(0, 0, 0.46, 0.03) infinite;
+   animation-duration: 2s;
+   animation-delay: 5s;
+  }
+  
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  .animate:before,
+  .animate:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+  
+  .animate:before{
+    animation: glitchTop 1s linear infinite;
+  
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%, 64% {
+        transform: translate(2px,0) skew(26deg);
+    }
+    
+    4%, 60% {
+        transform: translate(-2px,0) skew(336deg);
+    }
+    62% {
+        transform: translate(0,0) skew(346deg);
+    }
+}
+  .animate:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  a{  
+    color: #594935;
+    text-shadow: 60px 0px #2c2a2421;
+    font-size: 100px;
+    position: relative;
+    left: 745px;
+    top: 619px;
+  }
