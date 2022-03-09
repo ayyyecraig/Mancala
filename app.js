@@ -1,5 +1,5 @@
 
-//cache elements
+ const btn1 = document.querySelector('.game')
 const startSeeds= document.getElementsByClassName('seed') 
 let allPits = document.getElementsByClassName('hole')
 let totalSeeds = 0
@@ -42,7 +42,7 @@ for(let i = 0; i < allPits.length; i++){
         //changing the hardcoded 4 to +1 to add to the next pits seed count
         allPits[i+j].innerHTML = allPits[i+j].dataset.seed
             if(i < 5){
-                
+
             }
         }
     })
@@ -65,4 +65,10 @@ for(let i = 0; i < allPits.length; i++){
 
            
       
-    
+    btn1.addEventListener('click', ()=>{
+ if (btn1.innerText ==='Press To Clear Board'){
+            btn1.innerText= 'Restarting';
+            }if (btn1.innerText ==='Restarting'){
+                window.location.reload();
+             } 
+ });

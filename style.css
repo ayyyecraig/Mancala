@@ -7,6 +7,7 @@ font-family: 'Amatic SC', cursive;
 }
 
 h1{
+    color: #594935;
     text-shadow: 60px 0px #2c2a2421;
     font-size: 150px;
     margin-left: 791px;
@@ -17,7 +18,7 @@ h1{
 #board{
     position: relative;
     margin-left: 299px;
-    margin-top: -90px;
+    margin-top: -126px;
     display: flex;
     flex-direction: row;
     width: 1377px;
@@ -107,5 +108,15 @@ h1{
     background-position: center;
     
 }
-
-
+.game{
+width: 408px;
+height: 65px;
+position: relative;
+left: 738px;
+top: 5px;
+font-family: 'Amatic SC', cursive;
+color: #594935;
+text-shadow: 60px 0px #2c2a2421;
+font-size: 20px;
+background: transparent;
+}
