@@ -18,14 +18,15 @@ for(let i = 0; i < allPits.length; i++){
         allPits[i].innerHTML = 0
         allPits[i].dataset.seed = 0
         ///interating thru the following pits to add a seed
-         if (i > 10){
+         if (i > 11){
                 i=0
          } 
         let counter = currentSeeds
-       while(allPits[i].innerHTML = 0){
-         for(let k = 0; k < counter; k++){
+       while(currentSeeds){
+         for(let k = 1; k < counter; k++){
          if((i + k) > 11){
                 i = 0
+                k = 0
          }
          let nextSeed = parseInt(allPits[i+k].dataset.seed)
             allPits[i+k].dataset.seed = nextSeed + 1
@@ -33,12 +34,10 @@ for(let i = 0; i < allPits.length; i++){
         allPits[i+k].innerHTML = allPits[i+k].dataset.seed   
           
         }
+        currentSeeds--
     }      
            
-   })
-
-        
-    
+   })  
 
 }          
             
