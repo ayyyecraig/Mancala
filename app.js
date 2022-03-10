@@ -17,7 +17,6 @@ player2 = document.getElementById('player-two');
 
 
 //adds event listener to all pit and seeds
-
 //for loop to target allpits
 for(let i = 0; i < allPits.length; i++){ 
     /// event listener to hear pits clicked
@@ -28,22 +27,38 @@ for(let i = 0; i < allPits.length; i++){
         // hitting and changing hardcode html-- 4-4=0 
         console.log(typeof(currentSeeds))
         allPits[i].innerHTML =  parseInt(allPits[i].dataset.seed) - parseInt(currentSeeds)
-        console.log('clicked:', allPits[i])
-        console.log(allPits[i+1])
+        // console.log('clicked:', allPits[i])
+        // console.log(allPits[i+1])
         ///interating thru the following pits to add a seed
         for(let k = 1; k <= currentSeeds; k++){
+            //  if(i >  (allPits.length - 1)){
+            //      console.log('the position id greater than the length')
+            //      position = allPits[i]}
             let nextSeed = parseInt(allPits[i+k].dataset.seed)
             console.log(nextSeed)
             allPits[i+k].dataset.seed = nextSeed + 1 
            console.log(allPits[i+k].dataset.seed)
         //changing the hardcoded 4 to +1 to add to the next pits seed count
         allPits[i+k].innerHTML = allPits[i+k].dataset.seed
-            if(i < 5){
+       if (i > 5 ){
+           allPits[0]
+        //   switch(allPits[i]) {
+        //       case(5):
+        //       nextSeed + 
+          }
+       }
 
-            }
-        }
-    })
-}
+               
+   })
+}          
+            
+           
+           
+
+            
+     if (player1 = allPits[i].innerHTML =  parseInt(allPits[i].dataset.seed) - parseInt)
+    
+
 
 
 

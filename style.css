@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 body{
+background-color:#594935 ;
 background-image: url(https://htc-wallpaper.com/wp-content/uploads/2014/07/Sahara-Sand-Dunes.jpg);
 font-family: 'Amatic SC', cursive;
 }
@@ -138,13 +139,13 @@ h2{
 
 
 .animate{
-   animation:  glitch  cubic-bezier(0, 0, 0.46, 0.03) infinite;
+   animation:  breeze  cubic-bezier(0, 0, 0.46, 0.03) infinite;
    animation-duration: 2s;
    animation-delay: 5s;
   }
   
   
-  @keyframes glitch{
+  @keyframes breeze{
     2%,64%{
       transform: translate(2px,0) skew(0deg);
     }
@@ -164,12 +165,12 @@ h2{
   }
   
   .animate:before{
-    animation: glitchTop 1s linear infinite;
+    animation:  breezeTop 1s linear infinite;
   
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   }
   
-  @keyframes glitchTop{
+  @keyframes breezeTop{
     2%, 64% {
         transform: translate(2px,0) skew(26deg);
     }
@@ -182,7 +183,7 @@ h2{
     }
 }
   .animate:after{
-    animation: glitchBotom 1.5s linear infinite;
+    animation: breezeBotom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
