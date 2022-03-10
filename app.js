@@ -21,22 +21,21 @@ for(let i = 0; i < allPits.length; i++){
          if (i > 10){
                 i=0 
          } 
-        let counter = currentSeeds
-       
+          let counter = currentSeeds
+       while(currentSeeds){
          for(let k = 1; k < counter; k++){
          if((i + k) > 11){
                 i = 0
+                k = 0
          }
          let nextSeed = parseInt(allPits[i+k].dataset.seed)
-        
-            allPits[i+k].dataset.seed = nextSeed + 1 
+            allPits[i+k].dataset.seed = nextSeed + 1
             //changing the hardcoded 4 to +1 to add to the next pits seed count
         allPits[i+k].innerHTML = allPits[i+k].dataset.seed   
-      
-            //  currentSeeds--   
-        
+          
         }
-            
+        currentSeeds--
+    }      
            
    })
 
