@@ -20,12 +20,12 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 
 
 ## Functions/ Event Handlers
-- [ ] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
+- [x] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
 - [ ] Function to distrubute marbels one by one 
 - [ ] Increasing storage pits by one each rotation- ticking the score board
 - [ ] Function for determining players turn
 - [ ] Determining winner
-- [ ] Button to clear and restart game
+- [x] Button to clear and restart game
 
 
 
@@ -37,9 +37,9 @@ https://trello.com/b/2Y5t9EUd/mancala-project-lineup
 
 ### ***Resources***
 
-https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+- https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+- https://htc-wallpaper.com/wp-content/uploads/2014/07/Sahara-Sand-Dunes.jpg -- Background
+- http://i.ndtvimg.com/i/2016-05/coriander-seeds_625x350_51463659936.jpg -- seed background
+- https://fonts.google.com/specimen/Amatic+SC -- fonts
+- https://duckduckgo.com/?va=b&t=hc -- browser for images
 
-
-
-# ***Disclosure: To be deleted once approved or denied***
-If this project is to be denied on any bases; a backup idea of "Pong" is in place. Although pong is usually a game of two "paddles" and one "pong", it does not leave much of a challenge to a flexbox or grid. To meet the demand of a MVP; I would be  hoping to add "obstacles" or "barriers" that would bounce the ball in a more chaotic direction making it 1.MVP but 2.Possibly a bit more of a challenge compared to its 70's ancestor. 
