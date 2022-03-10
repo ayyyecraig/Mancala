@@ -42,4 +42,5 @@ https://trello.com/b/2Y5t9EUd/mancala-project-lineup
 - http://i.ndtvimg.com/i/2016-05/coriander-seeds_625x350_51463659936.jpg -- seed background
 - https://fonts.google.com/specimen/Amatic+SC -- fonts
 - https://duckduckgo.com/?va=b&t=hc -- browser for images
+- https://codepen.io/pgalor/pen/OeRWJQ -- inspiation fot front page html 
 
