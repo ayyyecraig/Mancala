@@ -27,8 +27,8 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 - [ ] Determining winner
 - [x] Button to clear and restart game
 
-
-
+##Deployed
+scared-rock.surge.sh
 
 
 ## TrelloBoard
