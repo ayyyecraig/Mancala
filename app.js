@@ -45,8 +45,12 @@ for(let i = 0; i < allPits.length; i++){
           
         }
         currentSeeds--
+<<<<<<< HEAD
     }      
 >>>>>>> bac913005c90db005a4a3de3c46d606b2ff0da5a
+=======
+       }      
+>>>>>>> 85531f7f828e7b517919955bf09dc8d8f4462127
            
     })  
 
