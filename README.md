@@ -33,7 +33,7 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 - [ ] Actual seeds.
 
 ##Deployed at 
-scared-rock.surge.sh
+  windy-rice.surge.sh
 
 
 ## TrelloBoard
