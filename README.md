@@ -32,7 +32,7 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 - [ ] The ability to change how many "seeds" you start out with. For a more fun and thought driven game.
 - [ ] Actual seeds.
 
-##Deployed at 
+## Deployed at 
   windy-rice.surge.sh
 
 
