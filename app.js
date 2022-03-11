@@ -35,7 +35,7 @@ for(let i = 0; i < allPits.length; i++){
           
         }
         currentSeeds--
-    }      
+       }      
            
    })
 
