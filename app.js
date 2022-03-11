@@ -35,28 +35,22 @@ for(let i = 0; i < allPits.length; i++){
          let nextSeed = parseInt(allPits[i+k].dataset.seed)
             allPits[i+k].dataset.seed = nextSeed + 1
             //changing the hardcoded 4 to +1 to add to the next pits seed count
-<<<<<<< HEAD
+
         allPits[i+k].innerHTML = allPits[i+k].dataset.seed     
          }
-        currentSeeds--
+            currentSeeds--
+      
+
         }      
-=======
-        allPits[i+k].innerHTML = allPits[i+k].dataset.seed   
-          
-        }
-        currentSeeds--
-<<<<<<< HEAD
-    }      
->>>>>>> bac913005c90db005a4a3de3c46d606b2ff0da5a
-=======
-       }      
->>>>>>> 85531f7f828e7b517919955bf09dc8d8f4462127
+
+      
+      }
            
     })  
 
-}          
+}     
             
-           
+         
            
 
 
