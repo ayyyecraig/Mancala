@@ -21,14 +21,19 @@ Capture as many seeds in this two player turn base game! Fun filled strategy gam
 
 ## Functions/ Event Handlers
 - [x] Html first page being a Title card- a click event implemented to switch page 1 to Html page2- gameplay.
+- [x] Button to clear and restart game
+
+
+### Future Prospects
 - [ ] Function to distrubute marbels one by one 
 - [ ] Increasing storage pits by one each rotation- ticking the score board
 - [ ] Function for determining players turn
 - [ ] Determining winner
-- [x] Button to clear and restart game
+- [ ] The ability to change how many "seeds" you start out with. For a more fun and thought driven game.
+- [ ] Actual seeds.
 
-
-
+##Deployed at 
+scared-rock.surge.sh
 
 
 ## TrelloBoard
